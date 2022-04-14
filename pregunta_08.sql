@@ -40,4 +40,4 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-    SELECT CAST(SUBSTR(c23,1,4) AS INT) AS YEAR, ROUND(AVG(c21),6) FROM tbl2 GROUP BY SUBSTR(c23,1,4);
+    SELECT CAST(SUBSTR(c23,1,4) AS INT) AS YEAR, ROUND(AVG(c21),6) FROM tbl2 GROUP BY YEAR;

@@ -40,4 +40,4 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-    SELECT SUBSTR(c23,1,4), AVG(c21) FROM tbl2 GROUP BY SUBSTR(c23,1,4);
+    SELECT SUBSTR(c23,1,4), ROUND(AVG(c21),6) FROM tbl2 GROUP BY SUBSTR(c23,1,4);

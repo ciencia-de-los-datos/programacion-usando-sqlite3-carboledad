@@ -40,4 +40,4 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-    SELECT CAST(STRFTIME('%Y', c23) AS INT) AS YEAR, AVG(c21) FROM tbl2 GROUP BY YEAR;
+    SELECT CAST(STRFTIME('%Y', c23) AS INT) AS YEAR, avg(c21) FROM tbl2 GROUP BY YEAR;
